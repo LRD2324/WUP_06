@@ -61,9 +61,9 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
-
-
-
+  
+In totality, there are a larger population of whites than blacks and other races involved in our data. However, this is irrelevant when the second plot is introduced above showing the percent of each race that oppose and are in favor of capital punishment. Above, it shows that the white and "other" races largely favor capital punishment at around 65%. In contrast to this, only 50% of the population of the black race favor capital punishment.
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
