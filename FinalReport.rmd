@@ -79,13 +79,13 @@ rowPerc(table2)
 colPerc(table2)
 ```
   
-Our numerical descriptive results confirm our visual analysis of the given plots. In both white and "other" races, the population is 68% favorable and 32% opposing. For th black population, 50.45% of the total oppose capital punishment. This is a stark difference to the common trend.
+Our numerical descriptive results confirm our visual analysis of the given plots. In both white and "other" races, the population is 68% favorable and 32% opposing. For the black population, 50.45% of the total oppose capital punishment. This is a stark difference to the common trend.
   
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-`
+
 
 
 ## Less data version
@@ -96,6 +96,9 @@ chisqtestGC(table2)
 fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
+  
+In order to accurately determine if our previous observations of our graphical and numerical results are correct, we used a Chi-squared test and the chisqtestGC function. This test calculated that the black portion of our data had much greater contributions to the test as a whole than any other race included in our data. The vast discrepancy in contributions can be observed in the "Contributions to the chi-square statistic" portion of the function above. The calculated p-value also was small enough to substantiate our observations that there is a significant difference between black views and other race's views on capital punishment.
+  
 ```{r}
 fisherXY = function(x, y, confL = 0, printAll=FALSE){
   # Inputs: 
