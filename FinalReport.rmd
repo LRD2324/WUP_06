@@ -169,8 +169,9 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
- 
-
+  
+The function above only calculated the difference between black~white views and black~other views. The absence of a white~other group included in the contingency table demonstrated that there was little discernible difference between the two. BlacK~white and black~other groups both had small p-values which indicated that there was a bias in the data which impacted the opinions of blacks vs whites and others. 
+  
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
