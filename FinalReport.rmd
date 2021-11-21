@@ -96,6 +96,9 @@ chisqtestGC(table2)
 fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
+  
+Our counts vs expected counts by the null display a discrepancy in the black and other races while the white data is very close to the expected counts by the null hypothesis. The chi squared test above suggests that blacks have the largest contributions to the chi-square statistics. However, both white and black populations contributed a large amount. In contrast, the "other" race contributed a drastically smaller amount to the chi-square statistics. These contributions can be compared above under "Contributions to the chi-square statistics." The degrees of freedom calculated of 2 is also 32 times smaller than our Chi-square statistics of 64.4 which strongly indicates a difference between groups.
+  
 ```{r}
 fisherXY = function(x, y, confL = 0, printAll=FALSE){
   # Inputs: 
