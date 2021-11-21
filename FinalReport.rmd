@@ -61,9 +61,9 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
-
-
-
+  
+Using a bar graph of percentages for and against capital punishment, we could estimate that around 68% of the white race approved of capital punishment and 32% opposing it. Around 46% of the black race approved of capital punishment while the majority of 54% opposed it. Finally, around 56% of the other race approved of capital punishment with 44% disapproving of the law. Visually, the bar graph suggests that there is a difference between all of the groups.
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
