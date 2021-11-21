@@ -173,5 +173,8 @@ fisherXY(mydata$cappun,mydata$race)
 All of the races were included in this contingency tables and all of our p-values calculated were small enough to negate our null and explicate that there is a substantial difference between all three races on this subject. Despite them all being different, the p-value between white and black was much smaller. The p-value for black and white was 0.000000000000575 while the p-values for white~other and black~other were 0.0002819 and 0.02479. The exaggeratedly small p-value for white~black indicates that the largest difference in opinions on capital punishment was between the white and black population, followed by the black and other population, then the white and other populations.
   
 # Discussion and Conclusion
-
+  
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+  
+The master branch showed distinctions between all of the groups involved in the data, and an extreme difference between black and white populations. However, the number2 branch data illustrated no difference between white and other races. This variance between the two is derived from having a larger set of data, which causes differences to become more apparent.
+  
