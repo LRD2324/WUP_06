@@ -175,3 +175,6 @@ The function above only calculated the difference between black~white views and 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+  
+The number2 branch showed no distinction between the other and white races whereas the master branch displayed a noticeable difference between them and all of the races. This is a result of this being a smaller set of data; smaller size decreases the accuracy of the conclusions.
+  
